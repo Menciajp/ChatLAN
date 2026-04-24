@@ -2,8 +2,8 @@ import sys
 import threading
 import time
 from protocolo import CHAT_PORT, get_local_ip
-from ChatLAN.red import ManejadorRed
-from ChatLAN.ui import UI
+from red import ManejadorRed
+from ui import UI
 
 
 class ClienteChat:
